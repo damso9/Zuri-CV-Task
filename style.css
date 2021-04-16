@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: 'Catamaran', sans-serif;
+}
+.container {
+    margin: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container > h2 {
+    color: blue;
+}
+.contact {
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    font-weight: 700;
+}
+.contact li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.contact div {
+    display: inline;
+    margin-right: 10px;
+}
+.company-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+.education {
+    margin-left: 50px;
+}
+.technical-skills {
+    margin-left: 50px;
+}
+.header {
+    color: blue;
+    margin-bottom: 0%;
+}
+.hnd {
+    display: flex;
+    justify-content: space-between;
+}
+.responsibilities > p:nth-child(2) {
+    font-weight: 700;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+    }
+  }
+  #bold,#bolden {
+      font-weight: 700;
+  }
